@@ -1,68 +1,164 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	TXT by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-	<title></title>
-</head>
+	<head>
+		<title>TXT by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
 
-<body>
-<script type="text/javascript">
+			<!-- Header -->
+				<header id="header">
+					<div class="logo container">
+						
+					</div>
+				</header>
 
-var userChoice = prompt("Do you choose rock, paper or scissors?");
-var computerChoice = Math.random();
-if (computerChoice < 0.34) {
-    computerChoice = "rock";
-} else if(computerChoice <= 0.67) {
-    computerChoice = "paper";
-} else {
-    computerChoice = "scissors";
-}
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Dropdown</a>
+							
+						</li>
+						
+					</ul>
+				</nav>
 
-var compare = function(choice1, choice2) {
-    if(choice1 === choice2) {
-    document.write("The result is a tie!");
-}
-if(choice1 === "rock") {
-    if(choice2 === "scissors") {
-        return "rock wins";
-    } else {
-      window.alert("paper wins");
-      
+			<!-- Banner -->
+				<div id="banner-wrapper">
+					<section id="banner">
+						
+					</section>
+				</div>
 
-    }
-}
-if(choice1 === "paper") {
-    if(choice2 === "rock") {
-        return "paper wins";
-    } else {
-        if(choice2 === "scissors") {
-            window.alert("scissors wins");
-            
-    }
-}
-if(choice1 === "scissors") {
-    if(choice2 === "rock") {
-        return "rock wins";
-    } else {
-        if(choice2 === "paper") {
-            window.alert("scissors wins");
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div id="main" class="container">
+						<div class="row 200%">
+							<div class="12u">
 
-        }
-    }
-}
-}
-};
-console.log("User Choice: " + userChoice);
-console.log("Computer Choice: " + computerChoice);
-compare(userChoice, computerChoice);
+								<!-- Highlight -->
+									<section class="box highlight">
+										
+									</section>
 
-alert("And you're still really gay");
+							</div>
+						</div>
+						<div class="row 200%">
+							<div class="12u">
 
+								<!-- Features -->
+									<section class="box features">
+										<h2 class="major"><span>A Major Heading</span></h2>
+										<div>
+											<div class="row">
+												<div class="3u 12u(mobile)">
 
-</script>
+													<!-- Feature -->
+														<section class="box feature">
+															
+														</section>
 
+												</div>
+												<div class="3u 12u(mobile)">
 
-</body>
+													<!-- Feature -->
+														<section class="box feature">
+															
+														</section>
+
+												</div>
+												<div class="3u 12u(mobile)">
+
+													<!-- Feature -->
+														<section class="box feature">
+															
+														</section>
+
+												</div>
+												<div class="3u 12u(mobile)">
+
+													<!-- Feature -->
+														<section class="box feature">
+															
+														</section>
+
+												</div>
+											</div>
+											<div class="row">
+												<div class="12u">
+													
+												</div>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+						<div class="row 200%">
+							<div class="12u">
+
+								<!-- Blog -->
+									<section class="box blog">
+										
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer" class="container">
+					<div class="row 200%">
+						<div class="12u">
+
+							<!-- About -->
+								<section>
+									
+								</section>
+
+						</div>
+					</div>
+					<div class="row 200%">
+						<div class="12u">
+
+							<!-- Contact -->
+								<section>
+									
+								</section>
+
+						</div>
+					</div>
+
+					<!-- Copyright -->
+						<div id="copyright">
+							
+						</div>
+
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
-
-
