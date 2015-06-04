@@ -12,8 +12,17 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		
-		<script type="text/javascript">
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<div class="logo container">
+					</div>
+				</header>
+
+				<script type="text/javascript">
 
 var userChoice = prompt("Do you choose rock, paper or scissors?");
 var computerChoice = Math.random();
@@ -25,13 +34,15 @@ if (computerChoice < 0.34) {
     computerChoice = "scissors";
 }
 
+window.alert("The computer chose " + computerChoice);
+
 var compare = function(choice1, choice2) {
     if(choice1 === choice2) {
-    document.write("The result is a tie!");
+    window.alert("The result is a tie!");
 }
 if(choice1 === "rock") {
     if(choice2 === "scissors") {
-        return "rock wins";
+        window.alert("rock wins");
     } else {
       window.alert("paper wins");
       
@@ -40,7 +51,7 @@ if(choice1 === "rock") {
 }
 if(choice1 === "paper") {
     if(choice2 === "rock") {
-        return "paper wins";
+        window.alert("paper wins");
     } else {
         if(choice2 === "scissors") {
             window.alert("scissors wins");
@@ -49,7 +60,7 @@ if(choice1 === "paper") {
 }
 if(choice1 === "scissors") {
     if(choice2 === "rock") {
-        return "rock wins";
+        window.alert("rock wins");
     } else {
         if(choice2 === "paper") {
             window.alert("scissors wins");
@@ -67,16 +78,6 @@ window.alert("And you're still really gay");
 
 
 </script>
-	</head>
-	<body class="homepage">
-		<div id="page-wrapper">
-
-			<!-- Header -->
-				<header id="header">
-					<div class="logo container">
-						
-					</div>
-				</header>
 
 			<!-- Nav -->
 				<nav id="nav">
@@ -93,7 +94,7 @@ window.alert("And you're still really gay");
 			<!-- Banner -->
 				<div id="banner-wrapper">
 					<section id="banner">
-						
+						<h1>ROCK, PAPER, SCISSORS</h1>
 					</section>
 				</div>
 
