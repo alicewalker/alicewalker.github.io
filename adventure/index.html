@@ -5,16 +5,18 @@
     <title>Jquery Choose Your Own Adventure</title>
       <script type="text/javascript" src="jquery-1.6.4.js"></script>
         <script type="text/javascript">
-          $(document).ready(function(){
+          <script type="text/javascript">
+            $(document).ready(function(){
 
-           $("#1st").click(function(){
-           $("#choice1").show();
-           $("button#1st").hide();
-           $("button#2nd").hide();
-           });
+             $("#1st").click(function(){
+             $("#choice1").show();
+             $("button#1st").hide();
+             $("button#2nd").hide();
+             });
 
-          });
-  </script>
+            });
+          </script>
+        </script>
 
   <style>
     #choice1 {display:none;}
@@ -31,6 +33,7 @@
   <input type="submit" name="1st" id="1st" value="First choice">
   </p>
   
+  <p>
   <input type="submit" name="2nd" id="2nd" value="Second choice">
   </p>
   
